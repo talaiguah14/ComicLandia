@@ -1,0 +1,79 @@
+﻿:root {
+    --blanco: #ffffff;
+    --black: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+.etiqueta{
+    width: 50%;
+    text-align:right;
+}
+
+.FilaBoton {
+  text-align:center;
+}
+
+.grvPedidos {
+    width: 100%
+}
+
+.tipoValidacion {
+    padding: 10px;
+    font-size: 2.6em;
+}
+.Mensaje {
+    font-size: 1.6em;
+}
+
+.filaMensaje{
+    position:relative;
+    top: 6vh;
+}
+
+.filaBtnValidacion {
+    position: relative;
+    top: 12vh;
+}
+
+.filaValidadion {
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 3vh;
+}
+
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 10%;
+    text-align: center;
+}
+
+.botonValidacion, .botonConfirmacion {
+    width: 20%;
+}
